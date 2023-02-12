@@ -18,3 +18,7 @@ def main():
         print(f"Access granted for user {user} to resource {resource}")
     else:
         print(f"Access denied for user {user} to resource {resource}")
+
+
+
+In this example, the check_access function takes a user and a resource as arguments, and returns True if the user has permission to access the resource, and False otherwise. The permissions matrix defines the access control rules, where each tuple represents a rule that maps a user to a resource, and indicates whether the user has permission to access the resource (True) or not (False).
